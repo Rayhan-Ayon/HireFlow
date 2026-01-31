@@ -1,0 +1,32 @@
+/* Zoom Join Button */
+.btn-zoom-join {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    background: #2D8CFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s;
+    box-shadow: 0 2px 8px rgba(45, 140, 255, 0.3);
+    margin-left: auto;
+}
+
+.btn-zoom-join:hover {
+    background: #1976D2;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(45, 140, 255, 0.4);
+}
+
+.btn-zoom-join:active {
+    transform: translateY(0);
+}
+
+.btn-zoom-join svg {
+    flex-shrink: 0;
+}

@@ -1,0 +1,121 @@
+[2026-01-29T13:10:32.648Z] --- STARTING DEEP DIAGNOSTIC ---
+[2026-01-29T13:10:32.655Z] Checking critical files...
+[2026-01-29T13:10:32.657Z] File server/index.js: EXISTS
+[2026-01-29T13:10:32.658Z] File server/database.js: EXISTS
+[2026-01-29T13:10:32.660Z] File .env: EXISTS
+[2026-01-29T13:10:32.661Z] File client/dist/index.html: EXISTS
+[2026-01-29T13:10:32.662Z] Checking if Port 3001 is currently in use...
+[2026-01-29T13:10:32.670Z] Port 3001 is FREE.
+[2026-01-29T13:10:32.672Z] Attempting to spawn server...
+[2026-01-29T13:10:37.999Z] [SERVER STDOUT]: Serving Static Files from client/dist
+[2026-01-29T13:10:38.001Z] [SERVER STDOUT]: Connected to SQLite database at: D:\First AntiGravity Software\database.sqlite
+[2026-01-29T13:10:38.050Z] [SERVER STDOUT]: Database Integrity Check: Found candidates table.
+[2026-01-29T13:10:38.055Z] [SERVER STDOUT]: Database initialized successfully
+[2026-01-29T13:10:38.064Z] [SERVER STDOUT]: Server running on port 3001 (0.0.0.0)
+[2026-01-29T13:10:38.065Z] Server signaled readiness. Testing HTTP connection...
+[2026-01-29T13:10:38.066Z] [SERVER STDOUT]: Candidate statuses migrated to "new" successfully
+[2026-01-29T13:10:40.160Z] [SERVER STDOUT]: 2026-01-29T13:10:40.158Z - GET /api/health
+[2026-01-29T13:10:40.191Z] Health Check Status: 200
+[2026-01-29T13:10:40.197Z] SUCCESS: /api/health returned 200 OK.
+[2026-01-29T13:10:40.210Z] [SERVER STDOUT]: 2026-01-29T13:10:40.209Z - GET /
+[2026-01-29T13:10:40.236Z] Root Status: 200
+[2026-01-29T13:37:40.961Z] --- STARTING DEEP DIAGNOSTIC ---
+[2026-01-29T13:37:40.999Z] Checking critical files...
+[2026-01-29T13:37:41.002Z] File server/index.js: EXISTS
+[2026-01-29T13:37:41.004Z] File server/database.js: EXISTS
+[2026-01-29T13:37:41.006Z] File .env: EXISTS
+[2026-01-29T13:37:41.008Z] File client/dist/index.html: EXISTS
+[2026-01-29T13:37:41.012Z] Checking if Port 3001 is currently in use...
+[2026-01-29T13:37:41.023Z] Port 3001 is FREE.
+[2026-01-29T13:37:41.026Z] Attempting to spawn server...
+[2026-01-29T13:37:41.172Z] [SERVER STDERR]: D:\First AntiGravity Software\server\index.js:25
+const path = require('path');
+      ^
+
+SyntaxError: Identifier 'path' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1638:18)
+    at Module._compile (node:internal/modules/cjs/loader:1680:20)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49
+[2026-01-29T13:37:41.179Z] [SERVER STDERR]: Node.js v22.20.0
+[2026-01-29T13:37:41.189Z] Server process exited prematurely with code 1
+[2026-01-29T13:37:41.227Z] FAILURE: Server crashed before health check passed.
+[2026-01-29T13:38:00.700Z] --- STARTING DEEP DIAGNOSTIC ---
+[2026-01-29T13:38:00.714Z] Checking critical files...
+[2026-01-29T13:38:00.716Z] File server/index.js: EXISTS
+[2026-01-29T13:38:00.722Z] File server/database.js: EXISTS
+[2026-01-29T13:38:00.724Z] File .env: EXISTS
+[2026-01-29T13:38:00.726Z] File client/dist/index.html: EXISTS
+[2026-01-29T13:38:00.729Z] Checking if Port 3001 is currently in use...
+[2026-01-29T13:38:00.736Z] Port 3001 is FREE.
+[2026-01-29T13:38:00.739Z] Attempting to spawn server...
+[2026-01-29T13:38:00.980Z] [SERVER STDERR]: D:\First AntiGravity Software\server\index.js:2245
+const fs = require('fs');
+      ^
+
+SyntaxError: Identifier 'fs' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1638:18)
+    at Module._compile (node:internal/modules/cjs/loader:1680:20)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49
+
+Node.js v22.20.0
+[2026-01-29T13:38:01.015Z] Server process exited prematurely with code 1
+[2026-01-29T13:38:01.016Z] FAILURE: Server crashed before health check passed.
+[2026-01-29T13:38:21.714Z] --- STARTING DEEP DIAGNOSTIC ---
+[2026-01-29T13:38:21.723Z] Checking critical files...
+[2026-01-29T13:38:21.725Z] File server/index.js: EXISTS
+[2026-01-29T13:38:21.729Z] File server/database.js: EXISTS
+[2026-01-29T13:38:21.731Z] File .env: EXISTS
+[2026-01-29T13:38:21.734Z] File client/dist/index.html: EXISTS
+[2026-01-29T13:38:21.735Z] Checking if Port 3001 is currently in use...
+[2026-01-29T13:38:21.741Z] Port 3001 is FREE.
+[2026-01-29T13:38:21.745Z] Attempting to spawn server...
+[2026-01-29T13:38:27.677Z] [SERVER STDOUT]: Serving Static Files from client/dist
+[2026-01-29T13:38:27.701Z] [SERVER STDOUT]: Connected to SQLite database at: D:\First AntiGravity Software\database.sqlite
+[2026-01-29T13:38:27.707Z] [SERVER STDOUT]: Connected to SQLite database at: D:\First AntiGravity Software\database.sqlite
+[2026-01-29T13:38:27.733Z] [SERVER STDOUT]: Database Integrity Check: Found candidates table.
+[2026-01-29T13:38:27.737Z] [SERVER STDOUT]: Database Integrity Check: Found candidates table.
+[2026-01-29T13:38:27.739Z] [SERVER STDOUT]: Database initialized successfully
+[2026-01-29T13:38:27.749Z] [SERVER STDOUT]: Server running on port 3001 (0.0.0.0)
+[2026-01-29T13:38:27.750Z] Server signaled readiness. Testing HTTP connection...
+[2026-01-29T13:38:27.752Z] [SERVER STDOUT]: Database initialized successfully
+[2026-01-29T13:38:27.757Z] [SERVER STDERR]: [2026-01-29T13:38:27.755Z] UNCAUGHT EXCEPTION: listen EADDRINUSE: address already in use 0.0.0.0:3001
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[2026-01-29T13:38:27.817Z] Server process exited prematurely with code 1
+[2026-01-29T13:38:27.818Z] FAILURE: Server crashed before health check passed.
+[2026-01-29T13:39:25.194Z] --- STARTING DEEP DIAGNOSTIC ---
+[2026-01-29T13:39:25.203Z] Checking critical files...
+[2026-01-29T13:39:25.206Z] File server/index.js: EXISTS
+[2026-01-29T13:39:25.208Z] File server/database.js: EXISTS
+[2026-01-29T13:39:25.210Z] File .env: EXISTS
+[2026-01-29T13:39:25.211Z] File client/dist/index.html: EXISTS
+[2026-01-29T13:39:25.212Z] Checking if Port 3001 is currently in use...
+[2026-01-29T13:39:25.219Z] Port 3001 is FREE.
+[2026-01-29T13:39:25.224Z] Attempting to spawn server...
+[2026-01-29T13:39:30.104Z] [SERVER STDOUT]: Serving Static Files from client/dist
+[2026-01-29T13:39:30.133Z] [SERVER STDOUT]: Connected to SQLite database at: D:\First AntiGravity Software\database.sqlite
+[2026-01-29T13:39:30.153Z] [SERVER STDOUT]: Database Integrity Check: Found candidates table.
+[2026-01-29T13:39:30.163Z] [SERVER STDOUT]: Database initialized successfully
+[2026-01-29T13:39:30.172Z] [SERVER STDOUT]: Server running on port 3001 (0.0.0.0)
+[2026-01-29T13:39:30.174Z] Server signaled readiness. Testing HTTP connection...
+[2026-01-29T13:39:30.177Z] [SERVER STDOUT]: Candidate statuses migrated to "new" successfully
+[2026-01-29T13:39:32.241Z] [SERVER STDOUT]: 2026-01-29T13:39:32.236Z - GET /api/health
+[2026-01-29T13:39:32.256Z] Health Check Status: 200
+[2026-01-29T13:39:32.256Z] SUCCESS: /api/health returned 200 OK.
+[2026-01-29T13:39:32.263Z] [SERVER STDOUT]: 2026-01-29T13:39:32.259Z - GET /
+[2026-01-29T13:39:32.274Z] Root Status: 200
