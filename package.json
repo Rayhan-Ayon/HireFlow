@@ -30,7 +30,6 @@
         "mammoth": "^1.11.0",
         "multer": "^2.0.2",
         "nodemailer": "^7.0.12",
-        "pdf-parse": "^2.4.5",
         "sqlite3": "^5.1.7"
     },
     "devDependencies": {
